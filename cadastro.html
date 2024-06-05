@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro de pet</title>
+    
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Cadastro de Pet</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nomedono" id="nomedono" class="inputUser" required>
+                    <label for="nomepet" class="labelInput">Nome do dono</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email do dono</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="nomepet" id="nomepet" class="inputUser" required>
+                    <label for="nomepet" class="labelInput">Nome do pet</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nomepet" id="especiepet" class="inputUser" required>
+                    <label for="especiepet" class="labelInput">Espécie + raça do pet</label>
+                </div>
+                <br>
+               
+                <p>Sexo:</p>
+                <input type="radio" id="femea" name="genero" value="femea" required>
+                <label for="feminino">Fêmea</label>
+                <br>
+                <input type="radio" id="macho" name="genero" value="macho" required>
+                <label for="masculino">Macho</label>
+                <br>
+                
+                <br><br>
+                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <br><br><br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Cidade</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Estado</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Endereço</label>
+                </div>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
